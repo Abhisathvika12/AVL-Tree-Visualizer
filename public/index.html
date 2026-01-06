@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AVL Tree Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AVL Tree Visualizer</h1>
+
+    <div class="controls">
+        <input type="number" id="value" placeholder="Enter value">
+        <button onclick="insert()">Insert</button>
+        <button onclick="removeNode()">Delete</button>
+        <button onclick="search()">Search</button>
+    </div>
+
+    <div id="result"></div>
+
+    <!-- SVG Tree -->
+    <svg id="treeSvg" width="900" height="500"></svg>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #b9d8de;
+}
+
+.container {
+    width: 960px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.controls input {
+    padding: 6px;
+    width: 120px;
+}
+
+.controls button {
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: none;
+    background: #408fd4;
+    color: white;
+    cursor: pointer;
+}
+
+.controls button:nth-child(3) {
+    background: #8265e0;
+}
+
+.controls button:nth-child(4) {
+    background: #d469a7;
+}
+
+#result {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* SVG */
+circle {
+    fill: #34e6da;
+    stroke: black;
+    stroke-width: 1;
+}
+
+circle.found {
+    fill: rgb(239, 53, 115);
+}
+
+line {
+    stroke: black;
+    stroke-width: 2;
+}
+
+text {
+    fill: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
